@@ -1,0 +1,1 @@
+Digite o texto cifrado em hexadecimal e a chave separados por espaço: Texto Decifrado: Texto (de)cifrado com RC4!
