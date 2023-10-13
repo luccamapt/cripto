@@ -41,7 +41,9 @@ Destacando as linguagens e documentações que contribuiram para a elaboração 
 
 ## 🚀 Executando o projeto
 
-- Para a atividade de RC4 (16/10), execute o arquivo *decrypt.py* com uma entrada em hexadecimal (já criptografada) e a chave utilizada. O arquivo /entradas/example.txt possui um exemplo de entrada, basta executar:
+- Para a atividade de RC4 (16/10), execute o arquivo *decrypt.py* com uma entrada em hexadecimal (já criptografada) e a chave utilizada separadas por espaço.
+- Exemplos de entradas e suas respectivas saídas podem ser encontrados nos arquivos especifícos: [rc4/entradas](https://github.com/luccamapt/cripto/tree/main/rc4/entradas) e [rc4/saidas](https://github.com/luccamapt/cripto/tree/main/rc4/saidas)
+- O arquivo /entradas/example.txt possui um exemplo de entrada, basta executar:
   ```
   python3 decrypt.py < ./entradas/example.txt
   ```
