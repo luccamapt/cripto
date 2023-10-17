@@ -1,1 +1,1 @@
-Digite o texto cifrado em hexadecimal e a chave separados por espaço: Texto Decifrado: Texto (de)cifrado com RC4!
+Digite a chave: Digite o texto cifrado em hexadecimal: Texto Decifrado: A resposta esta correta? SIM

@@ -32,9 +32,11 @@ def decrypt(text_hex, key):
   decrypted_text = decrypted_bytes.decode('utf-8')
   return decrypted_text
 
-# Entrada do usuário: texto cifrado em hexadecimal e chave separados por espaço
-user_input = input("Digite o texto cifrado em hexadecimal e a chave separados por espaço: ")
-ciphertext_hex, key = user_input.split()
+# Entrada da chave
+key = input("Digite a chave: ")
+
+# Entrada do texto cifrado em hexadecimal
+ciphertext_hex = input("Digite o texto cifrado em hexadecimal: ")
 
 # Decifra o texto
 plaintext = decrypt(ciphertext_hex, key)
