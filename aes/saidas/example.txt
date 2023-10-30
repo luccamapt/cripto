@@ -1,0 +1,1 @@
+Digite a chave: Digite o texto cifrado em hexadecimal: Texto Decifrado: A resposta esta correta? SIM
