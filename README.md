@@ -41,17 +41,29 @@ Destacando as linguagens e documentações que contribuiram para a elaboração 
 
 ## 🚀 Executando o projeto
 
-- Para a atividade de RC4 (16/10), execute o arquivo *decrypt.py* com uma entrada em hexadecimal (já criptografada) e a chave utilizada separadas por espaço.
-- Exemplos de entradas e suas respectivas saídas podem ser encontrados nos arquivos especifícos: [rc4/entradas](https://github.com/luccamapt/cripto/tree/main/rc4/entradas) e [rc4/saidas](https://github.com/luccamapt/cripto/tree/main/rc4/saidas)
-- O arquivo /entradas/example.txt possui um exemplo de entrada, basta executar:
+### RC4
+
+- Para a atividade de RC4 (16/10), execute o arquivo [*decrypt.py*](https://github.com/luccamapt/cripto/blob/main/rc4/decrypt.py) com a chave utilizada e uma entrada em hexadecimal (já criptografada). A pasta [entradas](https://github.com/luccamapt/cripto/tree/main/rc4/entradas) possui exemplo(s) de entrada, para executar o fornecido em classe basta executar:
   ```
   python3 decrypt.py < ./entradas/example.txt
   ```
-  Se preferir, insira um entrada de sua preferência. A saída do example.txt deve ser:
+  Se preferir, insira um entrada de sua preferência. A saída do example.txt fornecido em classe deve ser:
   ```
-  Texto Decifrado: Texto (de)cifrado com RC4!
+  Texto Decifrado: A resposta esta correta? SIM
   ```
   Outras saídas devem ser conferidas de acordo com a cifra utilizada.
+
+### AES
+
+- Para a atividade de AES (30/10), execute o arquivo [*decrypt.py*](https://github.com/luccamapt/cripto/blob/main/aes/decrypt.py) com a chave utilizada e uma entrada em hexadecimal (já criptografada). A pasta [entradas](https://github.com/luccamapt/cripto/tree/main/aes/entradas) possui exemplo(s) de entrada, para executar o fornecido em classe basta executar:
+  ```
+  python3 decrypt.py < ./entradas/example.txt
+  ```
+  Se preferir, insira um entrada de sua preferência. A saída do example.txt fornecido em classe deve ser:
+  ```
+  Texto Decifrado: A resposta esta correta? SIM
+  ```
+  Outras saídas devem ser conferidas de acordo com a cifra utilizada. No caso do AES que aceita apenas chaves de 16, 24 ou 32 bytes o exemplo de entrada foi alterado para exibir a saída corretamente.
 
 <p align="right"><a href="#top">↑</a></p>
 
@@ -80,8 +92,3 @@ Por enquanto, apenas um padawan traça a jornada do herói:
     </td>
   </tr>
 </table>
-
-Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
-Nenhum arquivo escolhido
-Attach files by dragging & dropping, selecting or pasting them.
-Editing cripto/README.md at main · luccamapt/cripto
