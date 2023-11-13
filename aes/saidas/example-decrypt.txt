@@ -1,0 +1,12 @@
+
+Menu:
+1. Encriptar
+2. Decriptar
+3. Sair
+Escolha uma opção (1/2/3): Digite a chave: Digite o texto cifrado em hexadecimal: Texto Decriptado: A resposta esta correta? SIM
+
+Menu:
+1. Encriptar
+2. Decriptar
+3. Sair
+Escolha uma opção (1/2/3): Saindo do programa.
