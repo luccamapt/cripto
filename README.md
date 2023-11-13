@@ -55,15 +55,23 @@ Destacando as linguagens e documentações que contribuiram para a elaboração 
 
 ### AES
 
-- Para a atividade de AES (30/10), execute o arquivo [*decrypt.py*](https://github.com/luccamapt/cripto/blob/main/aes/decrypt.py) com a chave utilizada e uma entrada em hexadecimal (já criptografada). A pasta [entradas](https://github.com/luccamapt/cripto/tree/main/aes/entradas) possui exemplo(s) de entrada, para executar o fornecido em classe basta executar:
+- Para a atividade de AES (30/10), execute o arquivo [*decrypt.py*](https://github.com/luccamapt/cripto/blob/main/aes/decrypt.py) com a chave utilizada e uma entrada em hexadecimal (já criptografada). A pasta [entradas](https://github.com/luccamapt/cripto/tree/main/aes/entradas) possui exemplo(s) de entrada, para executar um exemplo padrão utilize o seguinte trecho:
   ```
-  python3 decrypt.py < ./entradas/example.txt
+  python3 decrypt.py < ./entradas/example-decrypt.txt
   ```
-  Se preferir, insira um entrada de sua preferência. A saída do example.txt fornecido em classe deve ser:
+- Para a atividade de AES (13/11), execute o arquivo [*de-crypt.py*](https://github.com/luccamapt/cripto/blob/main/aes/de-crypt.py), uma versão extendida do código anterior que permite tanto descriptografar quanto criptografar. A pasta [entradas](https://github.com/luccamapt/cripto/tree/main/aes/entradas) possui exemplo(s) de entrada, para executar um exemplo padrão utilize um dos seguintes trechos:
+  ```
+  python3 decrypt.py < ./entradas/example-decrypt.txt
+  ```
+
+  ```
+  python3 decrypt.py < ./entradas/example-decrypt.txt
+  ```
+  Se preferir, insira um entrada de sua preferência. A saída do example.txt fornecido deve ser:
   ```
   Texto Decifrado: A resposta esta correta? SIM
   ```
-  Outras saídas devem ser conferidas de acordo com a cifra utilizada. No caso do AES que aceita apenas chaves de 16, 24 ou 32 bytes o exemplo de entrada foi alterado para exibir a saída corretamente.
+  Outras saídas devem ser conferidas de acordo com a cifra utilizada. No caso do AES que aceita apenas chaves de 16, 24 ou 32 bytes **a entrada deve ser alterada** para exibir a saída corretamente.
 
 <p align="right"><a href="#top">↑</a></p>
 
