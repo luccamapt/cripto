@@ -73,6 +73,32 @@ Destacando as linguagens e documentações que contribuiram para a elaboração 
   ```
   Outras saídas devem ser conferidas de acordo com a cifra utilizada. No caso do AES que aceita apenas chaves de 16, 24 ou 32 bytes **a entrada deve ser alterada** para exibir a saída corretamente.
 
+### Teoria dos números
+
+- Para a atividade de Teoria dos números (11/12), execute os arquivos [*extended_gcd.py*](https://github.com/luccamapt/cripto/blob/main/atividade04/extended_gcd.py) ou [*square_and_multiply.py*](https://github.com/luccamapt/cripto/blob/main/atividade04/square_and_multiply.py). A seguir, exemplos de entrada e saída esperados:
+
+| Exemplos GCD Extendido || 
+| :---       | :---       | 
+|Entrada     | Saída      |
+|5 13        | 1 8        | 
+|15 102      | 3 N        |
+
+| Exemplos Quadrado-e-Multiplicação ||
+| :---            | :---             |
+| Entrada         | Saída            |
+| 6 11 13         | 11               |
+| 2215 5545 16381 | 11105            |
+
+### RSA
+
+- Para a atividade de RSA para números pequenos (11/12), execute o arquivo [*rsa_smallnumbers.py*](https://github.com/luccamapt/cripto/blob/main/rsa/rsa_smallnumbers.py). A seguir, exemplos de entrada e saída esperados:
+
+| Exemplos RSA | Números pequenos |
+| :---         | :---             | 
+|Entrada       | Saída            |
+|1073 71 436   | 726              | 
+|91 43 19      | 33               |
+
 <p align="right"><a href="#top">↑</a></p>
 
 ## ✔️ Roadmap - Ajustes e melhorias
