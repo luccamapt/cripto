@@ -65,6 +65,8 @@ int extended_gcd(int x, int n, int *i, int *j) {
 }
 
 int mod_inverse(int x, int n) {
+  if (x < 0)
+    x = x + n;
   int i, j;
   int gcd = extended_gcd(x, n, &i, &j);
   if (gcd == 1)
@@ -94,6 +96,12 @@ Point ecc_add(Point G, Point Q, int a, int p) {
     R.x = (lam * lam - Q.x - G.x) % p;
     R.y = (lam * (Q.x - R.x) - Q.y) % p;
 
+    if (R.x <  0)
+      R.x = p + R.x;
+
+    if (R.y <  0)
+      R.y = p + R.y;
+
     return R;
   }
 }
@@ -105,6 +113,8 @@ Point ecc_multiply(Point G, int n, int a, int p) {
       R = ecc_add(G, R, a, p);
     G = ecc_add(G, G, a, p);
     n >>= 1;
+    printf ("LOOP %d  R - %d %d\n", i, R.x, R.y);
+    printf ("LOOP %d  G - %d %d\n", i, G.x, G.y);
   }
   return R;
 }
@@ -119,7 +129,7 @@ int main() {
 
     Point result = ecc_multiply((Point){Xg, Yg}, n, a, p);
 
-    printf("%d %d\n", result.x, result.y);
+    printf("FINAL %d %d\n", result.x, result.y);
   }
 
   return 0;
